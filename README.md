@@ -4,7 +4,7 @@
 
 首先需要建立数据库
 
-```python
+```pip
 python -m venv ll_env
 ```
 
@@ -16,6 +16,13 @@ ll_env\Scripts\activate
 
 Mac 下
 
-```shell
+```sh
 source ll_env/bin/activate
+```
+
+安装Django
+
+```pip
+pip install --upgrade pip
+pip install django
 ```
