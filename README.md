@@ -26,3 +26,9 @@ source ll_env/bin/activate
 pip install --upgrade pip
 pip install django
 ```
+
+使用bootstrap美化
+
+```pip
+.\ll_env\Scripts\pip.exe install django-bootstrap5
+```
