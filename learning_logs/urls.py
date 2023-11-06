@@ -9,4 +9,5 @@ urlpatterns = [
     # 显示所有主题的页面
     path('topics/', views.topics, name='topics'),
     path('topics/<int:topic_id>/', views.topic, name='topic'),
+    path('new_topic/', views.new_topic, name='new_topic'),
 ]
